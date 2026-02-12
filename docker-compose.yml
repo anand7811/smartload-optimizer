@@ -1,0 +1,10 @@
+services:
+  smartload:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: smartload:latest
+    container_name: smartload-container
+    ports:
+      - "8081:8080"
+    restart: unless-stopped

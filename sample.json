@@ -1,0 +1,31 @@
+{
+  "truck": {
+    "id": "truck-1",
+    "max_weight_lbs": 40000,
+    "max_volume_cuft": 3000
+  },
+  "orders": [
+    {
+      "id": "order-1",
+      "payout_cents": 250000,
+      "weight_lbs": 15000,
+      "volume_cuft": 1000,
+      "origin": "LA",
+      "destination": "Dallas",
+      "pickup_date": "2026-02-10",
+      "delivery_date": "2026-02-15",
+      "is_hazmat": false
+    },
+    {
+      "id": "order-2",
+      "payout_cents": 200000,
+      "weight_lbs": 20000,
+      "volume_cuft": 1500,
+      "origin": "LA",
+      "destination": "Dallas",
+      "pickup_date": "2026-02-11",
+      "delivery_date": "2026-02-16",
+      "is_hazmat": false
+    }
+  ]
+}
